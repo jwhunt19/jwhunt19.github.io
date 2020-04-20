@@ -42,7 +42,7 @@ header nav a {
 
 .about-name {
     width: 280px;
-    margin: 100px auto;
+    margin: 90px auto 70px auto;
 }
 
 .about-name h1 {
@@ -62,10 +62,27 @@ header nav a {
 
 .about-profile-img {
     width: 90%;
+    margin-left: 15px;
     position: absolute;
     bottom: 0;
 }
 
 .contact-list-img {
-    width: 52px;
+    width: 50px;
+}
+
+.about-contact {
+    width: 280px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-contact h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
 }
