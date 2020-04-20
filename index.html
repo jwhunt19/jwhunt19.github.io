@@ -3,41 +3,60 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Joey Huntington Portfolio</title>
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <h2 class="header-tag">@JWHunt19</h2>
-      <nav>
-        <ul class="nav-list">
-          <li class="nav-item">About</li>
-          <li class="nav-item">Portfolio</li>
-        </ul>
-      </nav>
-    </header><!-- /Header -->
+    
     <main>
       <!-- About -->
-      <section class="about">
+      <section id="about">
+        <!-- Header -->
+        <header>
+          <h2 class="header-tag"><a href="https://twitter.com/JWHunt19" target="_blank">@JWHunt19</a></h2>
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </nav>
+        </header><!-- /Header -->
+        <!-- Name -->
         <div class="about-name">
           <h1>Joey Huntington</h1>
           <div class="divider"></div>
           <h2>Front End Developer</h2>
-        </div>
+        </div><!-- /Name -->
+        <!-- Contact -->
         <div class="about-contact">
           <h2>Contact Me</h2>
           <ul class="contact-list">
-            <li class="contact-list-item"><a href=""></a></li>
-            <li class="contact-list-item"><a href=""></a></li>
-            <li class="contact-list-item"><a href=""></a></li>
-            <li class="contact-list-item"><a href=""></a></li>
+            <li class="contact-list-item">
+              <a href="">
+                <img class="contact-list-img" src="svg/github.svg" alt="github logo">
+              </a>
+            </li>
+            <li class="contact-list-item">
+              <a href="">
+                <img class="contact-list-img" src="svg/linkedin.svg" alt="github logo">
+              </a>
+            </li>
+            <li class="contact-list-item">
+              <a href="">
+                <img class="contact-list-img" src="svg/twitter.svg" alt="github logo">
+              </a>
+            </li>
+            <li class="contact-list-item">
+              <a href="">
+                <img class="contact-list-img" src="svg/github.svg" alt="github logo">
+              </a>
+            </li>
           </ul>
-        </div>
+        </div><!-- /Contact -->
         <img class="about-profile-img" src="img/jwhunt-tbg.png" alt="Joey Huntington">
       </section><!-- /About -->
       <!-- Portfolio -->
-      <section class="porfolio">
+      <section id="porfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-grid">
           <div class="portfolio-grid-item">
@@ -72,15 +91,16 @@
           </div>
         </div>
       </section><!-- /Portfolio -->
-    </main>
     <!-- Footer -->
-    <footer>
-      <ul class="nav-list">
-        <li class="nav-item"><a href="">GitHub</a></li>
-        <li class="nav-item"><a href="">LinkedIn</a></li>
-        <li class="nav-item"><a href="">Email</a></li>
-        <li class="nav-item"><a href="#">Back To Top</a></li>
-      </ul>
-    </footer><!-- /Footer -->
+      <footer>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="">GitHub</a></li>
+          <li class="nav-item"><a href="">LinkedIn</a></li>
+          <li class="nav-item"><a href="">Email</a></li>
+          <li class="nav-item"><a href="#">Back To Top</a></li>
+        </ul>
+      </footer><!-- /Footer -->
+    </main>
+    
   </body>
 </html>
