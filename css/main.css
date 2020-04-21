@@ -437,6 +437,8 @@ header nav a {
 #about {
   background-color: #EEE0FF;
   height: 100vh;
+  /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .about-name {
@@ -540,11 +542,26 @@ header nav a {
   font-size: 14px;
 }
 
-.portfolio-grid-item:last-child span {
-  font-family: Helvetica, sans-serif;
-}
-
 footer {
   background-color: #E5E5E4;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 900;
+}
+
+.nav-item img {
+  width: 30px;
+}
+
+.top {
+  float: right;
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */
