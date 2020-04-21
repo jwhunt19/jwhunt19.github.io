@@ -1,15 +1,8 @@
+// GLOBAL STYLES ------------------
+
 html {
     scroll-behavior: smooth;
     font-family: 'Bungee', cursive;
-}
-
-#about {
-    background-color: $bg1;
-    height: 100vh;
-}
-
-#portfolio {
-    background-color: $bg2;
 }
 
 h1, h2, h3, span, a {
@@ -21,6 +14,8 @@ a {
     font-family: Helvetica;
 }
 
+// HEADER --------------------
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,6 +25,7 @@ header {
     font-family: Helvetica;
     padding: 15px 0 0 20px;
     font-weight: 700;
+    font-size: 19px;
 }
 
 header nav {
@@ -38,6 +34,14 @@ header nav {
 
 header nav a {
     font-weight: 700;
+    font-size: 20px;
+}
+
+// ABOUT NAME --------------------
+
+#about {
+    background-color: $bg1;
+    height: 100vh;
 }
 
 .about-name {
@@ -60,12 +64,7 @@ header nav a {
     font-size: 19px;
 }
 
-.about-profile-img {
-    width: 90%;
-    margin-left: 15px;
-    position: absolute;
-    bottom: 0;
-}
+// ABOUT CONTACT --------------------
 
 .contact-list-img {
     width: 50px;
@@ -85,4 +84,37 @@ header nav a {
 .contact-list {
     display: flex;
     justify-content: space-between;
+}
+
+// ABOUT PROFILE IMG --------------------
+
+.about-profile-img {
+    width: 90%;
+    margin-left: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+// PORTFOLIO ---------------------
+
+#portfolio {
+    background-color: $bg2;
+}
+
+#portfolio h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio-grid-item {
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portfolio-grid-item img {
+    width: 290px;
+    border-radius: 5px;
 }
