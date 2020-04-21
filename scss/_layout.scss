@@ -107,14 +107,40 @@ header nav a {
     padding: 50px;
 }
 
+.portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .portfolio-grid-item {
+    width: 290px;
     margin-bottom: 75px;
     display: flex;
     flex-direction: column;
+}
 
+.portfolio-grid-item h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
 }
 
 .portfolio-grid-item img {
     width: 290px;
     border-radius: 5px;
+}
+
+.portfolio-grid-item span {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.portfolio-grid-item:last-child span {
+    font-family: Helvetica, sans-serif;
+}
+
+// FOOTER ------------------
+
+footer {
+    background-color: $bg2;
 }
