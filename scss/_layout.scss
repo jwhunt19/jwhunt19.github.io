@@ -26,6 +26,9 @@ header {
     padding: 15px 0 0 20px;
     font-weight: 700;
     font-size: 19px;
+    @media (min-width: 768px) {
+        font-size: 28px;
+    }
 }
 
 header nav {
@@ -35,6 +38,9 @@ header nav {
 header nav a {
     font-weight: 700;
     font-size: 20px;
+    @media (min-width: 768px) {
+        font-size: 30px;
+    }
 }
 
 // ABOUT NAME --------------------
@@ -50,11 +56,18 @@ header nav a {
 .about-name {
     width: 280px;
     margin: 90px auto 70px auto;
+    @media (min-width: 768px) {
+        width: 350px;
+        margin: 130px auto 90px auto;
+    }
 }
 
 .about-name h1 {
     font-size: 27px;
     margin: 0px;
+    @media (min-width: 768px) {
+        font-size: 34px;
+    }
 }
 
 .divider {
@@ -65,23 +78,35 @@ header nav a {
 
 .about-name h2 {
     font-size: 19px;
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 // ABOUT CONTACT --------------------
 
 .contact-list-img {
     width: 50px;
+    @media (min-width: 768px) {
+        width: 60px;
+    }
 }
 
 .about-contact {
     width: 280px;
     margin: auto;
     text-align: center;
+    @media (min-width: 768px) {
+        width: 350px;
+    }
 }
 
 .about-contact h2 {
     font-size: 32px;
     padding-bottom: 10px;
+    @media (min-width: 768px) {
+        font-size: 40px;
+    }
 }
 
 .contact-list {
@@ -112,6 +137,9 @@ header nav a {
     font-size: 32px;
     text-align: center;
     padding: 50px;
+    @media (min-width: 768px) {
+        font-size: 50px;
+    }
 }
 
 .portfolio-grid {
@@ -120,7 +148,7 @@ header nav a {
     align-items: center;
     @media (min-width: 768px) {
         display: grid;
-        grid-template-columns: 290px 290px;
+        grid-template-columns: 320px 320px;
         column-gap: 40px;
         justify-content: center;
     }
@@ -131,16 +159,25 @@ header nav a {
     margin-bottom: 75px;
     display: flex;
     flex-direction: column;
+    @media (min-width: 768px) {
+        width: 320px;
+    }
 }
 
 .portfolio-grid-item h3 {
     margin-bottom: 8px;
     font-size: 22px;
+    @media (min-width: 768px) {
+        font-size: 30px;
+    }
 }
 
 .portfolio-grid-item img {
     width: 290px;
     border-radius: 5px;
+    @media (min-width: 768px) {
+        width: 320px;
+    }
 }
 
 .portfolio-grid-item span {
