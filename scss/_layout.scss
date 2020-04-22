@@ -43,6 +43,8 @@ header nav a {
     background-color: $bg1;
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
+    position: relative;
+    z-index: 1;
 }
 
 .about-name {
@@ -142,17 +144,14 @@ footer {
     background-color: $bg2;
 }
 
-.nav-list {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 900;
+footer ul.nav-list {
+    display: none;
 }
 
-.nav-item img {
-    width: 30px;
-}
-
-.top {
-    float: right;
-    padding: 15px;
+.top img {
+    width: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    z-index: 0;
 }
