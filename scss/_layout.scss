@@ -29,10 +29,23 @@ header {
     @media (min-width: 768px) {
         font-size: 28px;
     }
+    @media (min-width: 1440px) {
+        padding: 30px 0 0 30px;
+    }
+    @media (min-width: 1920px) {
+        font-size: 40px;
+        padding: 50px 0 0 100px;
+    }
 }
 
 header nav {
     padding: 15px 20px 0 0;
+    @media (min-width: 1440px) {
+        padding: 30px 30px 0 0;
+    }
+    @media (min-width: 1920px) {
+        padding: 50px 100px 0 0;
+    }
 }
 
 header nav a {
@@ -40,6 +53,9 @@ header nav a {
     font-size: 20px;
     @media (min-width: 768px) {
         font-size: 30px;
+    }
+    @media (min-width: 1920px) {
+        font-size: 42px;
     }
 }
 
@@ -59,6 +75,13 @@ header nav a {
         display: flex;
         justify-content: space-between;
     }
+    @media (min-width: 1440px) {
+        font-size: 42px;
+        margin: 180px 100px 0 0;
+    }
+    @media (min-width: 1920px) {
+        margin: 250px 200px 0 150px;
+    }
 }
 
 .about-name {
@@ -71,6 +94,10 @@ header nav a {
     @media (min-width: 1024px) {
         margin: 30px 0 0 20px;
     }
+    @media (min-width: 1440px) {
+        width: 450px;
+        margin: 20px 0 0 50px;
+    }
 }
 
 .about-name h1 {
@@ -78,6 +105,9 @@ header nav a {
     margin: 0px;
     @media (min-width: 768px) {
         font-size: 34px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 44px;
     }
 }
 
@@ -91,6 +121,9 @@ header nav a {
     font-size: 19px;
     @media (min-width: 768px) {
         font-size: 24px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 31px;
     }
 }
 
@@ -106,12 +139,18 @@ header nav a {
     @media (min-width: 1024px) {
         margin: 0;
     }
+    @media (min-width: 1440px) {
+        width: 350px;
+    }
 }
 
 .contact-list-img {
     width: 50px;
     @media (min-width: 768px) {
         width: 60px;
+    }
+    @media (min-width: 1440px) {
+        width: 70px;
     }
 }
 
@@ -121,6 +160,9 @@ header nav a {
     padding-bottom: 10px;
     @media (min-width: 768px) {
         font-size: 40px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 48px;
     }
 }
 
@@ -142,8 +184,10 @@ header nav a {
     @media (min-width: 768px) {
         width: 70%;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1920px) {
+        width: 55%;
     }
+    
     
 }
 
@@ -160,6 +204,10 @@ header nav a {
     @media (min-width: 768px) {
         font-size: 50px;
     }
+    @media (min-width: 1920px) {
+        font-size: 70px;
+        padding-bottom: 100px;
+    }
 }
 
 .portfolio-grid {
@@ -175,6 +223,14 @@ header nav a {
     @media (min-width: 1024px) {
         column-gap: 150px;
     }
+    @media (min-width: 1440px) {
+        grid-template-columns: 320px 320px 320px;
+        column-gap: 120px;
+    }
+    @media (min-width: 1920px) {
+        grid-template-columns: 430px 430px 430px;
+        column-gap: 120px;
+    }
 }
 
 .portfolio-grid-item {
@@ -185,6 +241,9 @@ header nav a {
     @media (min-width: 768px) {
         width: 320px;
     }
+    @media (min-width: 1920px) {
+        width: 430px;
+    }
 }
 
 .portfolio-grid-item h3 {
@@ -192,6 +251,9 @@ header nav a {
     font-size: 22px;
     @media (min-width: 768px) {
         font-size: 26px;
+    }
+    @media (min-width: 1920px) {
+        font-size: 34px;
     }
 }
 
@@ -201,6 +263,9 @@ header nav a {
     @media (min-width: 768px) {
         width: 320px;
     }
+    @media (min-width: 1920px) {
+        width: 430px;
+    }
 }
 
 .portfolio-grid-item span {
@@ -208,6 +273,9 @@ header nav a {
     font-size: 14px;
     @media (min-width: 768px) {
         font-size: 18px;
+    }
+    @media (min-width: 1920px) {
+        font-size: 20px;
     }
 }
 

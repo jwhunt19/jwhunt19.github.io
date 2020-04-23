@@ -431,8 +431,33 @@ header {
   }
 }
 
+@media (min-width: 1440px) {
+  .header-tag {
+    padding: 30px 0 0 30px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .header-tag {
+    font-size: 40px;
+    padding: 50px 0 0 100px;
+  }
+}
+
 header nav {
   padding: 15px 20px 0 0;
+}
+
+@media (min-width: 1440px) {
+  header nav {
+    padding: 30px 30px 0 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  header nav {
+    padding: 50px 100px 0 0;
+  }
 }
 
 header nav a {
@@ -443,6 +468,12 @@ header nav a {
 @media (min-width: 768px) {
   header nav a {
     font-size: 30px;
+  }
+}
+
+@media (min-width: 1920px) {
+  header nav a {
+    font-size: 42px;
   }
 }
 
@@ -467,6 +498,19 @@ header nav a {
   }
 }
 
+@media (min-width: 1440px) {
+  .about-text-wrapper {
+    font-size: 42px;
+    margin: 180px 100px 0 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .about-text-wrapper {
+    margin: 250px 200px 0 150px;
+  }
+}
+
 .about-name {
   width: 280px;
   margin: 90px auto 70px auto;
@@ -485,6 +529,13 @@ header nav a {
   }
 }
 
+@media (min-width: 1440px) {
+  .about-name {
+    width: 450px;
+    margin: 20px 0 0 50px;
+  }
+}
+
 .about-name h1 {
   font-size: 27px;
   margin: 0px;
@@ -493,6 +544,12 @@ header nav a {
 @media (min-width: 768px) {
   .about-name h1 {
     font-size: 34px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-name h1 {
+    font-size: 44px;
   }
 }
 
@@ -509,6 +566,12 @@ header nav a {
 @media (min-width: 768px) {
   .about-name h2 {
     font-size: 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-name h2 {
+    font-size: 31px;
   }
 }
 
@@ -530,6 +593,12 @@ header nav a {
   }
 }
 
+@media (min-width: 1440px) {
+  .about-contact {
+    width: 350px;
+  }
+}
+
 .contact-list-img {
   width: 50px;
 }
@@ -537,6 +606,12 @@ header nav a {
 @media (min-width: 768px) {
   .contact-list-img {
     width: 60px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact-list-img {
+    width: 70px;
   }
 }
 
@@ -548,6 +623,12 @@ header nav a {
 @media (min-width: 768px) {
   .about-contact h2 {
     font-size: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-contact h2 {
+    font-size: 48px;
   }
 }
 
@@ -576,6 +657,12 @@ header nav a {
   }
 }
 
+@media (min-width: 1920px) {
+  .about-profile-img {
+    width: 55%;
+  }
+}
+
 #portfolio {
   background-color: #E5E5E4;
 }
@@ -589,6 +676,13 @@ header nav a {
 @media (min-width: 768px) {
   #portfolio h2 {
     font-size: 50px;
+  }
+}
+
+@media (min-width: 1920px) {
+  #portfolio h2 {
+    font-size: 70px;
+    padding-bottom: 100px;
   }
 }
 
@@ -626,6 +720,24 @@ header nav a {
   }
 }
 
+@media (min-width: 1440px) {
+  .portfolio-grid {
+    -ms-grid-columns: 320px 320px 320px;
+        grid-template-columns: 320px 320px 320px;
+    -webkit-column-gap: 120px;
+            column-gap: 120px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .portfolio-grid {
+    -ms-grid-columns: 430px 430px 430px;
+        grid-template-columns: 430px 430px 430px;
+    -webkit-column-gap: 120px;
+            column-gap: 120px;
+  }
+}
+
 .portfolio-grid-item {
   width: 290px;
   margin-bottom: 75px;
@@ -644,6 +756,12 @@ header nav a {
   }
 }
 
+@media (min-width: 1920px) {
+  .portfolio-grid-item {
+    width: 430px;
+  }
+}
+
 .portfolio-grid-item h3 {
   margin-bottom: 8px;
   font-size: 22px;
@@ -652,6 +770,12 @@ header nav a {
 @media (min-width: 768px) {
   .portfolio-grid-item h3 {
     font-size: 26px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .portfolio-grid-item h3 {
+    font-size: 34px;
   }
 }
 
@@ -666,6 +790,12 @@ header nav a {
   }
 }
 
+@media (min-width: 1920px) {
+  .portfolio-grid-item img {
+    width: 430px;
+  }
+}
+
 .portfolio-grid-item span {
   margin-top: 12px;
   font-size: 14px;
@@ -674,6 +804,12 @@ header nav a {
 @media (min-width: 768px) {
   .portfolio-grid-item span {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .portfolio-grid-item span {
+    font-size: 20px;
   }
 }
 
