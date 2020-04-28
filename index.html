@@ -8,7 +8,7 @@
     <title>Joey Huntington Portfolio</title>
   </head>
   <body>
-    
+    <div id="loadOverlay" style="background-color:#333; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"></div>
     <main>
       <!-- About -->
       <section id="about">
@@ -63,54 +63,115 @@
       <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-grid">
+          
           <div class="portfolio-grid-item">
             <h3>Pixel Art App</h3>
-            <a href="https://jwhunt19.github.io/pixel-art-app/"><img src="img/pixelArtApp.png" alt="Pixel Art App"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="pixel-art-app" class="modal-btn" src="img/pixelArtApp.png" alt="Pixel Art App">
+            <div id="pixel-art-app-modal" class="modal">
+              <div id="pixel-art-app-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Pixel Art App</h4>
+                <img src="img/pixelArtApp.png" alt="Pixel Art App">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/pixel-art-app/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
           <div class="portfolio-grid-item">
             <h3>Game Show App</h3>
-            <a href="https://jwhunt19.github.io/fe-techdegree-project-6/"><img src="img/gameShowApp.png" alt="Game Show App"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="game-show-app" class="modal-btn" src="img/gameShowApp.png" alt="Game Show App">
+            <div id="game-show-app-modal" class="modal">
+              <div id="game-show-app-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Game Show App</h4>
+                <img src="img/gameShowApp.png" alt="Game Show App">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/fe-techdegree-project-6/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
           <div class="portfolio-grid-item">
             <h3>Employee Directory</h3>
-            <a href="https://jwhunt19.github.io/Employee-Directory-API-FETD8/"><img src="img/employeeDirectory.png" alt="Employee Directory"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="employee-directory" class="modal-btn" src="img/employeeDirectory.png" alt="Employee Directory">
+            <div id="employee-directory-modal" class="modal">
+              <div id="employee-directory-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Employee Directory</h4>
+                <img src="img/employeeDirectory.png" alt="Employee Directory">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/Employee-Directory-API-FETD8/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
           <div class="portfolio-grid-item">
             <h3>Gallery</h3>
-            <a href="https://jwhunt19.github.io/fe-techdegree-project-5/"><img src="img/gallery.png" alt="Gallery Project"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="gallery" class="modal-btn" src="img/gallery.png" alt="Gallery">
+            <div id="gallery-modal" class="modal">
+              <div id="gallery-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Gallery</h4>
+                <img src="img/gallery.png" alt="Gallery">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/fe-techdegree-project-5/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
           <div class="portfolio-grid-item">
             <h3>Newsletter</h3>
-            <a href="https://jwhunt19.github.io/fe-techdegree-project-3/"><img src="img/newsletter.png" alt="Newsletter"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="newsletter" class="modal-btn" src="img/newsletter.png" alt="newsletter">
+            <div id="newsletter-modal" class="modal">
+              <div id="newsletter-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Newsletter</h4>
+                <img src="img/newsletter.png" alt="newsletter">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/fe-techdegree-project-3/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
           <div class="portfolio-grid-item">
             <h3>Web Style Guide</h3>
-            <a href="https://jwhunt19.github.io/fe-techdegree-project-4/"><img src="img/webStyleGuide.png" alt="Web Style Guide"></a>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </span>
+            <img id="web-style-guide" class="modal-btn" src="img/webStyleGuide.png" alt="Web Style Guide">
+            <div id="web-style-guide-modal" class="modal">
+              <div id="web-style-guide-modal-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h4>Web Style Guide</h4>
+                <img src="img/webStyleGuide.png" alt="Web Style Guide">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat.
+                </span>
+                <a href="https://jwhunt19.github.io/fe-techdegree-project-4/"><button>Live Site</button></a>
+                <a><button>Source Code</button></a>
+              </div>
+            </div>
           </div>
+
         </div>
       </section><!-- /Portfolio -->
     <!-- Footer -->
