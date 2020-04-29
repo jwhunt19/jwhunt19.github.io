@@ -14,7 +14,7 @@
       <section id="about">
         <!-- Header -->
         <header>
-          <h2 class="header-tag"><a href="https://twitter.com/JWHunt19" target="_blank">@JWHunt19</a></h2>
+          <h2 class="header-tag"><a target="_blank" href="https://twitter.com/JWHunt19" target="_blank">@JWHunt19</a></h2>
           <nav>
             <ul class="nav-list">
               <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
@@ -33,22 +33,22 @@
             <h2>Contact Me</h2>
             <ul class="contact-list">
               <li class="contact-list-item">
-                <a href="https://github.com/jwhunt19">
+                <a target="_blank" href="https://github.com/jwhunt19">
                   <img class="contact-list-img" src="img/github.png" alt="github logo">
                 </a>
               </li>
               <li class="contact-list-item">
-                <a href="https://www.linkedin.com/in/joseph-huntington-a22880126/">
+                <a target="_blank" href="https://www.linkedin.com/in/joseph-huntington-a22880126/">
                   <img class="contact-list-img" src="img/linkedin.png" alt="linkedin logo">
                 </a>
               </li>
               <li class="contact-list-item">
-                <a href="https://twitter.com/JWHunt19">
+                <a target="_blank" href="https://twitter.com/JWHunt19">
                   <img class="contact-list-img" src="img/twitter.png" alt="twitter logo">
                 </a>
               </li>
               <li class="contact-list-item">
-                <a href="mailto:jwhunt19@gmail.com">
+                <a target="_blank" href="mailto:jwhunt19@gmail.com">
                   <img class="contact-list-img" src="img/email.png" alt="email logo">
                 </a>
               </li>
@@ -70,14 +70,18 @@
             <div id="pixel-art-app-modal" class="modal">
               <div id="pixel-art-app-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Pixel Art App</h4>
-                <img src="img/pixelArtApp.png" alt="Pixel Art App">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/pixel-art-app/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Pixel Art App</h4>
+                  <img src="img/pixelArtApp.png" alt="Pixel Art App">
+                  <span class="modal-text">
+                    A personal project and my first project using JavaScript. The goal being, storing variables
+                    and using them in a visual way.
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/pixel-art-app/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/pixel-art-app"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -88,14 +92,19 @@
             <div id="game-show-app-modal" class="modal">
               <div id="game-show-app-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Game Show App</h4>
-                <img src="img/gameShowApp.png" alt="Game Show App">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/fe-techdegree-project-6/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Game Show App</h4>
+                  <img src="img/gameShowApp.png" alt="Game Show App">
+                  <span class="modal-text">
+                    A word guessing game that generates random phrases that the player attempts to guess using
+                    an onscreen keyboard while having their attempts tracked and limited. Win and lose screens are
+                    shown depending on the players outcome. 
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/fe-techdegree-project-6/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/fe-techdegree-project-6"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -106,14 +115,18 @@
             <div id="employee-directory-modal" class="modal">
               <div id="employee-directory-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Employee Directory</h4>
-                <img src="img/employeeDirectory.png" alt="Employee Directory">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/Employee-Directory-API-FETD8/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Employee Directory</h4>
+                  <img src="img/employeeDirectory.png" alt="Employee Directory">
+                  <span class="modal-text">
+                    A mock employee directory that fetches 12 profiles as JSON objects from the Random User 
+                    Generator API and displays them as info cards that can be clicked to display a more detailed modal.
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/Employee-Directory-API-FETD8/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/Employee-Directory-API-FETD8"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -124,14 +137,19 @@
             <div id="gallery-modal" class="modal">
               <div id="gallery-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Gallery</h4>
-                <img src="img/gallery.png" alt="Gallery">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/fe-techdegree-project-5/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Gallery</h4>
+                  <img src="img/gallery.png" alt="Gallery">
+                  <span class="modal-text">
+                    an interactive photo gallery using JavaScript and jQuery with search bar functionality that displays
+                    a grid of thumbnails that can be clicked to reveal a full size photo and description using Lightbox
+                    by Lokesh Dhakar.
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/fe-techdegree-project-5/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/fe-techdegree-project-5"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -142,14 +160,18 @@
             <div id="newsletter-modal" class="modal">
               <div id="newsletter-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Newsletter</h4>
-                <img src="img/newsletter.png" alt="newsletter">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/fe-techdegree-project-3/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Newsletter</h4>
+                  <img src="img/newsletter.png" alt="newsletter">
+                  <span class="modal-text">
+                    A repsonsive mobile-first mock online registration form made to practice many different form fields,
+                    input types and options using HTML and CSS. 
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/fe-techdegree-project-3/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/fe-techdegree-project-3"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -160,14 +182,18 @@
             <div id="web-style-guide-modal" class="modal">
               <div id="web-style-guide-modal-content" class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Web Style Guide</h4>
-                <img src="img/webStyleGuide.png" alt="Web Style Guide">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat.
-                </span>
-                <a href="https://jwhunt19.github.io/fe-techdegree-project-4/"><button>Live Site</button></a>
-                <a><button>Source Code</button></a>
+                <div class="modal-content-wrapper">
+                  <h4>Web Style Guide</h4>
+                  <img src="img/webStyleGuide.png" alt="Web Style Guide">
+                  <span class="modal-text">
+                    A style guide showcasing different CSS properties where I was tasked with taking a source CSS file 
+                    and structurally converting it into Sass by splitting the code into several Sass partial files. 
+                  </span>
+                  <div class="button-wrapper">
+                    <a target="_blank" href="https://jwhunt19.github.io/fe-techdegree-project-4/"><button>Live Site</button></a>
+                    <a target="_blank" href="https://github.com/jwhunt19/fe-techdegree-project-4"><button>Source Code</button></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
